@@ -1,0 +1,163 @@
+BankDao dao = BankDaoFactory.getBankDao();
+
+        Scanner input = new Scanner(System.in);
+
+        User user = new User();
+        Application application = new Application();
+        Account account = new Account();
+        Transfer transfer = new Transfer();
+        Transaction transaction = new Transaction();
+
+
+        transfer.setId(11);
+        dao.postTransferToAccount(transfer);
+        //dao.retrieveAllTransactions();
+
+
+        //dao.addNewUser(user);
+
+
+
+
+        /*
+        System.out.print("First name: ");
+        String fname = input.nextLine();
+        System.out.print("Last name: ");
+        String lname = input.nextLine();
+        System.out.print("User name: ");
+        String un = input.nextLine();
+        System.out.print("Password: ");
+        String pw = input.nextLine();
+        */
+
+
+        /*
+        System.out.print("Enter your account number to see account details: ");
+        int id = input.nextInt();
+        user.setId(id);
+
+        dao.retrieveAccountViewDetails(user);
+
+        //System.out.print("Select account to see balance: ");
+
+        System.out.print("Select Account No. to transfer money from: ");
+        int acctid = input.nextInt();
+        account.setId(acctid);
+        transfer.setSendId(acctid);
+        System.out.print("Select Account No. to transfer money to: ");
+        int recid = input.nextInt();
+        transfer.setRecId(recid);
+        System.out.print("Amount to transfer: ");
+        double amount = input.nextDouble();
+        transfer.setAmount(amount);
+
+        dao.addNewTransfer(transfer);
+        */
+
+        /*
+        System.out.print("Enter your account number to see account details: ");
+        int id2 = input.nextInt();
+        user.setId(id2);
+
+        dao.retrieveAccountViewDetails(user);
+
+        System.out.print("Enter Account No. to see awaiting transfers: ");
+        int acctid2 = input.nextInt();
+        account.setId(acctid2);
+        dao.retrieveTransferDetails(account);
+
+        System.out.print("Enter Transfer No. to approve transfer to your account: ");
+        int transId = input.nextInt();
+        transfer.setId(transId);
+        dao.postTransferToAccount(transfer);
+
+         */
+
+
+        //dao.retrieveAllAccountDetails();
+
+
+        /*
+        System.out.print("Enter username: ");
+        String uname = input.nextLine();
+        System.out.print("Enter password: ");
+        String passwd = input.nextLine();
+        */
+
+        /*
+        user.setUsername(uname);
+        user.setPassword(passwd);
+        boolean hasAccount = dao.verifyUser(user);
+
+
+         */
+
+        /*
+        user.setFirstName(fname);
+        user.setLastName(lname);
+        user.setUsername(un);
+        user.setPassword(pw);
+        dao.addNewUser(user);
+        */
+
+        //
+        //
+
+
+
+        /*
+        boolean isCustomer = dao.verifyAccount(user);
+        if(isCustomer)
+            System.out.println("Customer status verified");
+        else
+            System.out.println("There is no account associated with this user");
+
+         */
+
+
+
+
+        //dao.getAllApplications();
+
+
+        //
+
+        //System.out.print("Customer no: ");
+        //int userId = input.nextInt();
+        /*
+        System.out.print("Account type: ");
+        String acctType= input.next();
+        System.out.print("Deposit amount: ");
+        double deposit = input.nextDouble();
+        */
+
+        //application.setUserId(userId);
+        //application.setAcctType(acctType);
+        //application.setDeposit(deposit);
+
+        //dao.addApplication(application);
+
+        //dao.addNewAccount(application);
+
+        /*
+        System.out.print("User name: ");
+        String un = input.nextLine();
+        System.out.print("Password: ");
+        String pw = input.nextLine();
+        System.out.print("Employee No.: ");
+        int empno = input.nextInt();
+
+        Employee employee = new Employee();
+        employee.setId(empno);
+
+
+        boolean isEmployee = dao.isEmployee(employee);
+        System.out.println(isEmployee);
+
+         */
+
+        ///account.setId(8);
+        //double amount = 52.00D;
+        //dao.withdrawFunds(account, amount);
+        //dao.depositFunds(account, amount);
+
